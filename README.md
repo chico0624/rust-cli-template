@@ -24,3 +24,12 @@ cargo run
 # help
 cargo run -- -h
 ```
+
+## インストール
+```
+# インストール
+cargo install --path .
+
+# アンインストール
+cargo uninstall rpncalc
+```
