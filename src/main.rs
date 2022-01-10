@@ -2,6 +2,7 @@ use anyhow::{bail, ensure, Result};
 
 use clap::Parser;
 use std::fs::File;
+use std::path::PathBuf;
 use std::io::{stdin, BufRead, BufReader};
 
 #[derive(Parser, Debug)]
@@ -11,7 +12,7 @@ struct Args {
     verbose: bool,
 
     #[clap(name = "FILE")]
-    fomura_file: Option<String>,
+    fomura_file: Option<PathBuf>,
 }
 
 fn main() {
