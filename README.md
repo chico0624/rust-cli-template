@@ -19,7 +19,7 @@ cargo run -- input.txt
 
 # 標準入力の場合(e.g.)
 cargo run
-1 1 +
+1 1 + 2 *
 
 # help
 cargo run -- -h
